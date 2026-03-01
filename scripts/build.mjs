@@ -19,6 +19,9 @@ await build({
   target: 'node20',
   sourcemap: false,
   logLevel: 'info',
+  banner: {
+    js: 'import { createRequire as __createRequire } from "node:module"; const require = __createRequire(import.meta.url);',
+  },
 });
 
 await copyFile(path.join(ROOT_DIR, 'src', 'app.js'), path.join(DIST_DIR, 'app.js'));

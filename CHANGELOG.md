@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.6
+
+- Injected a Node `require` shim into the ESM bundle so bundled `pdfme` runtime dependencies can safely load built-in modules such as `buffer`.
+
 ## 1.0.5
 
 - Bundled the API entrypoint into `dist/api.js` so marketplace installations no longer depend on external `@pdfme/*` packages at runtime.
