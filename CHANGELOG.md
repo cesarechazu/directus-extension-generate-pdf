@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.5
+
+- Bundled the API entrypoint into `dist/api.js` so marketplace installations no longer depend on external `@pdfme/*` packages at runtime.
+
 ## 1.0.4
 
 - Switched the project license to MIT.
