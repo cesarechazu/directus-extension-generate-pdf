@@ -4,7 +4,7 @@ Directus Flow operation that generates PDF files from JSON templates using [`pdf
 
 ## Flow Operation
 
-![Generate PDF flow operation](https://raw.githubusercontent.com/cesarechazu/directus-extension-generate-pdf/main/img/edit_operation.jpg)
+<img src="https://raw.githubusercontent.com/cesarechazu/directus-extension-generate-pdf/main/img/edit_operation.jpg" alt="Generate PDF flow operation" width="472">
 
 ## Features
 
@@ -210,7 +210,7 @@ Inputs:
 
 ## Example Result
 
-![Generate PDF demo](https://raw.githubusercontent.com/cesarechazu/directus-extension-generate-pdf/main/img/demo.jpg)
+<img src="https://raw.githubusercontent.com/cesarechazu/directus-extension-generate-pdf/main/img/demo.jpg" alt="Generate PDF demo" width="370">
 
 Multi-page inputs:
 
@@ -224,6 +224,9 @@ Multi-page inputs:
 ## Invoice Example
 
 Template:
+
+<details>
+  <summary>Show Template JSON</summary>
 
 ```json
 {
@@ -645,7 +648,12 @@ Template:
 }
 ```
 
+</details>
+
 Inputs:
+
+<details>
+  <summary>Show Inputs JSON</summary>
 
 ```json
 {
@@ -676,9 +684,11 @@ Inputs:
 }
 ```
 
+</details>
+
 ## Invoice example result
 
-![Invoice example result](https://raw.githubusercontent.com/cesarechazu/directus-extension-generate-pdf/main/img/invoice_example.jpg)
+<img src="https://raw.githubusercontent.com/cesarechazu/directus-extension-generate-pdf/main/img/invoice_example.jpg" alt="Invoice example result" width="400">
 
 ## Generate Options Example
 
@@ -697,4 +707,4 @@ Inputs:
 
 ## License
 
-GPL v3 or later (`GPL-3.0-or-later`)
+MIT (`MIT`)

@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.4
+
+- Switched the project license to MIT.
+- Reduced README image display sizes and collapsed the Invoice Example code blocks.
+
 ## 1.0.3
 
 - Removed the obsolete root `api.js` and `app.js` wrapper files after consolidating source code under `src/`.
