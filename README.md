@@ -29,7 +29,7 @@ Then restart Directus so it reloads the extension.
 
 ## Operation
 
-- Extension package: `directus-extension-generate-pdf`
+- Extension package: `@cesarechazu/directus-extension-generate-pdf`
 - Operation ID: `generate-pdf-operation`
 - Display name: `Generate PDF`
 
