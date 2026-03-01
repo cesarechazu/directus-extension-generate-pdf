@@ -1,0 +1,53 @@
+{
+  "name": "directus-extension-generate-pdf",
+  "description": "Directus Flow operation to generate generic PDFs from JSON using pdfme",
+  "icon": "picture_as_pdf",
+  "version": "1.0.0",
+  "author": "Cesar Echazu",
+  "license": "GPL-3.0-or-later",
+  "keywords": [
+    "directus",
+    "directus-extension",
+    "directus-operation",
+    "pdf",
+    "pdfme",
+    "flows"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarechazu/directus-extension-generate-pdf.git"
+  },
+  "homepage": "https://github.com/cesarechazu/directus-extension-generate-pdf#readme",
+  "bugs": {
+    "url": "https://github.com/cesarechazu/directus-extension-generate-pdf/issues"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "files": [
+    "app.js",
+    "api.js",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "fonts"
+  ],
+  "dependencies": {
+    "@pdfme/common": "5.5.8",
+    "@pdfme/generator": "5.5.8",
+    "@pdfme/schemas": "5.5.8"
+  },
+  "directus:extension": {
+    "type": "operation",
+    "host": "^11.0.0",
+    "path": {
+      "app": "app.js",
+      "api": "api.js"
+    },
+    "source": {
+      "app": "app.js",
+      "api": "api.js"
+    }
+  }
+}
