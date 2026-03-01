@@ -27,6 +27,12 @@ npm install
 
 Then restart Directus so it reloads the extension.
 
+To rebuild the published extension files after changing `src/`:
+
+```bash
+npm run build
+```
+
 ## Operation
 
 - Extension package: `@cesarechazu/directus-extension-generate-pdf`
