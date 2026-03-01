@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2
+
+- Republished package metadata as a new npm release after the immutable 1.0.1 publish.
+
 ## 1.0.1
 
 - Switched the package structure to `src/` + `dist/` for marketplace-friendly distribution.
