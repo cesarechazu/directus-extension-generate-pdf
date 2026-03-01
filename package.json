@@ -2,7 +2,7 @@
   "name": "@cesarechazu/directus-extension-generate-pdf",
   "description": "Directus Flow operation to generate generic PDFs from JSON using pdfme",
   "icon": "picture_as_pdf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Cesar Echazu",
   "license": "GPL-3.0-or-later",
   "keywords": [
